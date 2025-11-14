@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: json-store-server
+    env: node
+    plan: free
+    region: oregon
+    buildCommand: "npm install"
+    startCommand: "npm start"
+    repo: "REPLACE_WITH_YOUR_GIT_REPO"
+    branch: "main"
